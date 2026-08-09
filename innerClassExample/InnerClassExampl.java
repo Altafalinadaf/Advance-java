@@ -26,6 +26,11 @@ public class InnerClassExampl {
         A a = new A();
         a.show();
 
+        A.B b2=new A().new B();
+        b2.show();
+
+
+
         A.B b=a.new B();
         b.show();
         
