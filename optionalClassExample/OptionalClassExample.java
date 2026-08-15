@@ -30,7 +30,7 @@ public class OptionalClassExample {
          * Therefore, findFirst() will not find any value.
          */
         Optional<String> n = name.stream()
-                .filter(str -> str.contains("x"))
+                .filter(str -> str.contains("R"))
                 .findFirst();
 
 

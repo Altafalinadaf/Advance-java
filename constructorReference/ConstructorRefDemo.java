@@ -92,7 +92,6 @@ public class ConstructorRefDemo {
                 .map(name -> new Employee(name))
                 .toList();
 
-
         // Printing Employee objects
         emp2.forEach(System.out::println);
 
