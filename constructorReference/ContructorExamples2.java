@@ -30,6 +30,7 @@ public class ContructorExamples2 {
 
         //optional class examples 
         String findName=names.stream().filter(str->str.contains("h")).findFirst().orElse("Not found");
+        System.out.println(findName);
         // without stream api
 
         System.out.println("Without Stream api");
