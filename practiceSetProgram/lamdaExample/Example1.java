@@ -21,7 +21,9 @@ public class Example1 {
     A a2=()->System.out.println("show details");
     a2.show();
 
-    B b=(int a3,int b3)->a3+b3;
+    B b=(int a3,int b3)->{
+        return a3+b3;
+    };
     System.out.println(b.add(2,4));
     }
 

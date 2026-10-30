@@ -53,14 +53,12 @@ public class ConstructorAndMethodReference {
         System.out.println("stream api 2");
         emps3.forEach(System.out::println);
 
-
         // optional class 
-        String name2=names.stream().filter(name->name.contains("v")).findFirst().orElse("Not found");
+        String name2 = names.stream().filter(name->name.contains("v")).findFirst().orElse("Not found");
+
+
         System.out.println("names " +name2);
-        
-        
-        
-        
+         
     }
 
 }
