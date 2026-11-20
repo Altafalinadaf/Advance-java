@@ -47,11 +47,7 @@ public class SeqAndParStream {
         System.out.println(result+ " = "+result2);
 
         System.out.println("normal stream "+(endtSeq-startSeq));
-        System.out.println("Parallel stream "+(endPara-startPara));
-
-
-       
-        
+        System.out.println("Parallel stream "+(endPara-startPara));     
 
     }
 
